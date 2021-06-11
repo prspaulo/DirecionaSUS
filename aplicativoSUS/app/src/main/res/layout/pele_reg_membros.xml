@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView205"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="O que mais te incomoda?"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView205"
+        tools:ignore="MissingConstraints">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/cbx_vermelhidao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Vermelhidão"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"/>
+
+            <CheckBox
+                android:id="@+id/cbx_coceira"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Coceira"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_vermelhidao"
+                tools:ignore="MissingConstraints"/>
+
+            <CheckBox
+                android:id="@+id/cbx_inchaco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Inchaço"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_coceira"
+                tools:ignore="MissingConstraints"/>
+
+            <CheckBox
+                android:id="@+id/cbx_picada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Picada"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_inchaco"
+                tools:ignore="MissingConstraints"/>
+
+            <CheckBox
+                android:id="@+id/cbx_descamacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Descamação"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_picada"
+                tools:ignore="MissingConstraints"/>
+
+            <CheckBox
+                android:id="@+id/cbx_bolha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Bolha"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_descamacao"
+                tools:ignore="MissingConstraints"/>
+
+            <CheckBox
+                android:id="@+id/cbx_queimadura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Queimadura"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_bolha"
+                tools:ignore="MissingConstraints"/>
+
+            <CheckBox
+                android:id="@+id/cbx_corte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Corte"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_queimadura"
+                tools:ignore="MissingConstraints"/>
+
+            <CheckBox
+                android:id="@+id/cbx_mancha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Mancha"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_corte"
+                tools:ignore="MissingConstraints"/>
+
+            <Button
+                android:id="@+id/btn_gerar_rota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Gerar rota"
+                android:background="@drawable/shape"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_mancha"
+                tools:ignore="MissingConstraints" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

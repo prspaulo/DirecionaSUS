@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6A5ACD">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospitais infantis"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView120"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B0C4DE"
+        android:text="Hospital João Paulo II (CGP)"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView121"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rua Alameda Ezequiel Dias, 345 - Centro"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView122"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefones: (31) 3239-9000"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/textView123"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B0C4DE"
+        android:text="Hospital João XVIII"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView124"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rua Alfredo Balena, 400 - Centro"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView125"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefones: (31) 3239-9200"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+</LinearLayout>

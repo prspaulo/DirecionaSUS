@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/textView150"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Maternidades do SUS"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView151"
+        android:layout_width="381dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:text="As maternidades funcionan 24h por dia!"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView150"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView152"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B0C4DE"
+        android:text="Hospital Júlia Kubistchek"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <TextView
+        android:id="@+id/textView153"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Av. Dr. Cristiano Resende, 312 - Milionários"
+        android:textColor="@android:color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <TextView
+        android:id="@+id/textView154"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefones: (31) 3389-7800"
+        android:textColor="@android:color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+
+    <TextView
+        android:id="@+id/textView155"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B0C4DE"
+        android:text="Hospital Sofia Feldman"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <TextView
+        android:id="@+id/textView156"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rua Antônio Bandeira, 1060 - Tupi"
+        android:textColor="@android:color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <TextView
+        android:id="@+id/textView157"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefone: (31) 3408-2200"
+        android:textColor="@android:color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+
+    <TextView
+        android:id="@+id/textView158"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B0C4DE"
+        android:text="Maternidade Odete Valadares"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="542dp" />
+
+    <TextView
+        android:id="@+id/textView159"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Av do Contorno, 9494 - Prado"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="463dp" />
+
+    <TextView
+        android:id="@+id/textView160"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefone: (31) 3298-6000"
+        android:textColor="@android:color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewAcolhimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Já passei pelo Acolhimento"
+        android:textColor="#3F51B5"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/cbx_acolhimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="4dp"
+        android:shadowColor="#3F51B5"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        app:layout_constraintStart_toEndOf="@+id/textViewAcolhimento"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewRisco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Minha classificação de risco"
+        android:textColor="#3F51B5"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbx_acolhimento"
+        tools:ignore="MissingConstraints"/>
+
+    <RadioButton
+        android:id="@+id/rdAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:selectAllOnFocus="false"
+        android:text="Azul"
+        android:textColor="#007FFF"
+        app:buttonTint="#007FFF"
+        app:fontFamily="casual"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRisco"
+        tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:id="@+id/rdVerde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:selectAllOnFocus="false"
+        android:text="Verde"
+        android:textColor="#008000"
+        app:buttonTint="#008000"
+        app:fontFamily="casual"
+        app:layout_constraintStart_toEndOf="@+id/rdAzul"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRisco"
+        tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:id="@+id/rdAmarelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:selectAllOnFocus="false"
+        android:text="Amarelo"
+        android:textColor="@color/traffic_yellow"
+        app:buttonTint="@color/traffic_yellow"
+        app:fontFamily="casual"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rdAzul"
+        tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:id="@+id/rdLaranja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:selectAllOnFocus="false"
+        android:text="Laranja"
+        android:textColor="#FFA500"
+        app:buttonTint="#FFA500"
+        app:fontFamily="casual"
+        app:layout_constraintStart_toEndOf="@+id/rdAmarelo"
+        app:layout_constraintTop_toBottomOf="@+id/rdVerde"
+        tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:id="@+id/rdVermelho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:selectAllOnFocus="false"
+        android:text="Vermelho"
+        android:textColor="@color/traffic_red"
+        app:buttonTint="@color/traffic_red"
+        app:fontFamily="casual"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rdLaranja"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewAtendido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Já passei pelo atendimento médico"
+        android:textColor="#3F51B5"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rdVermelho"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/cbx_atendido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:shadowColor="#3F51B5"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        app:layout_constraintStart_toEndOf="@+id/textViewAtendido"
+        app:layout_constraintTop_toBottomOf="@+id/rdVermelho"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

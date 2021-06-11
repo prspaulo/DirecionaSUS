@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Onde incomoda mais?"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="363dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:showDividers="middle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/btn_cabeca"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="172dp"
+            android:layout_height="153dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:backgroundTint="#FFB6C1"
+            android:text="Cabeça"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="casual"
+            tools:ignore="MissingConstraints" />
+
+
+        <Button
+            android:id="@+id/btn_peito"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="172dp"
+            android:layout_height="153dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:backgroundTint="#F5DEB3"
+            android:text="Peito"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="casual"
+            tools:ignore="MissingConstraints" />
+
+    </TableRow>
+    <!-- Linha 2 com 2 colunas -->
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="363dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:showDividers="middle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/btn_barriga"
+            android:layout_width="172dp"
+            android:layout_height="153dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:backgroundTint="#66CDAA"
+            android:text="@string/barriga"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="casual"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn_costas_membros"
+            android:layout_width="172dp"
+            android:layout_height="153dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:backgroundTint="#87CEEB"
+            android:text="@string/costas_membros"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="casual"
+            tools:ignore="MissingConstraints" />
+
+    </TableRow>
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_cabeca"-->
+    <!--style="@style/Widget.AppCompat.Button"-->
+    <!--android:layout_width="172dp"-->
+    <!--android:layout_height="153dp"-->
+    <!--android:layout_marginTop="154dp"-->
+    <!--android:layout_marginEnd="14dp"-->
+    <!--android:layout_marginRight="14dp"-->
+    <!--android:layout_marginBottom="8dp"-->
+    <!--android:background="@drawable/shape"-->
+    <!--android:backgroundTint="#FFB6C1"-->
+    <!--android:text="Cabeça"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+    <!--android:textColor="#FFFFFF"-->
+    <!--android:textStyle="bold"-->
+    <!--app:fontFamily="casual"-->
+    <!--app:layout_constraintBottom_toTopOf="@+id/btn_costas_membros"-->
+    <!--app:layout_constraintEnd_toStartOf="@+id/btn_peito"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/textView28"-->
+    <!--tools:ignore="MissingConstraints" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_peito"-->
+    <!--style="@style/Widget.AppCompat.Button"-->
+    <!--android:layout_width="172dp"-->
+    <!--android:layout_height="153dp"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--android:layout_marginLeft="8dp"-->
+    <!--android:layout_marginTop="155dp"-->
+    <!--android:layout_marginEnd="16dp"-->
+    <!--android:layout_marginRight="16dp"-->
+    <!--android:layout_marginBottom="4dp"-->
+    <!--android:background="@drawable/shape"-->
+    <!--android:backgroundTint="@android:color/holo_blue_light"-->
+    <!--android:text="Peito"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+    <!--android:textColor="#FFFFFF"-->
+    <!--android:textStyle="bold"-->
+    <!--app:fontFamily="casual"-->
+    <!--app:layout_constraintBottom_toTopOf="@+id/btn_barriga"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/btn_cabeca"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/textView28"-->
+    <!--tools:ignore="MissingConstraints" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_barriga"-->
+    <!--android:layout_width="172dp"-->
+    <!--android:layout_height="153dp"-->
+    <!--android:layout_marginStart="19dp"-->
+    <!--android:layout_marginLeft="19dp"-->
+    <!--android:layout_marginTop="4dp"-->
+    <!--android:layout_marginEnd="16dp"-->
+    <!--android:layout_marginRight="16dp"-->
+    <!--android:layout_marginBottom="215dp"-->
+    <!--android:background="@drawable/shape"-->
+    <!--android:backgroundTint="@android:color/holo_blue_light"-->
+    <!--android:text="Barriga"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+    <!--android:textColor="#FFFFFF"-->
+    <!--android:textStyle="bold"-->
+    <!--app:fontFamily="casual"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/btn_costas_membros"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/btn_peito"-->
+    <!--tools:ignore="MissingConstraints" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_costas_membros"-->
+    <!--android:layout_width="172dp"-->
+    <!--android:layout_height="153dp"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:layout_marginEnd="19dp"-->
+    <!--android:layout_marginRight="19dp"-->
+    <!--android:layout_marginBottom="212dp"-->
+    <!--android:background="@drawable/shape"-->
+    <!--android:backgroundTint="#FFFFE0"-->
+    <!--android:text="Costas e Mebros"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+    <!--android:textColor="#FFFFFF"-->
+    <!--android:textStyle="bold"-->
+    <!--app:fontFamily="casual"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toStartOf="@+id/btn_barriga"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/btn_cabeca"-->
+    <!--tools:ignore="MissingConstraints" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

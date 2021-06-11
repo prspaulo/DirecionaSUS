@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.example.aplicativosus">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="22" /> -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".resetarSenha"></activity>
+        <activity android:name=".opcoes_corona" />
+        <activity android:name=".corona_virus" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".perfil" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".CadastroActivity" />
+        <activity android:name=".pele_reg_membros" />
+        <activity android:name=".perna" />
+        <activity android:name=".mao" />
+        <activity android:name=".braco" />
+        <activity android:name=".costas" />
+        <activity android:name=".sintomas_membros" />
+        <activity android:name=".pele_barriga" />
+        <activity android:name=".maternidades" />
+        <activity android:name=".genitalia_f" />
+        <activity android:name=".genitalia_m" />
+        <activity android:name=".rins_trato_urinario" />
+        <activity android:name=".sistema_digestorio" />
+        <activity android:name=".sintomas_barriga" />
+        <activity android:name=".pele_peito" />
+        <activity android:name=".pulmao" />
+        <activity android:name=".coracao" />
+        <activity android:name=".sintomas_torax" />
+        <activity android:name=".pele_cabeca" />
+        <activity android:name=".pescoco" />
+        <activity android:name=".boca" />
+        <activity android:name=".orelha" />
+        <activity android:name=".nariz" />
+        <activity android:name=".olhos" />
+        <activity android:name=".cabeca" />
+        <activity android:name=".sintomas_cabeca" />
+        <activity android:name=".continuar_sem_sinais_alerta" />
+        <activity android:name=".hospitais_infantis" />
+        <activity android:name=".serv_urg_emerg" />
+        <activity android:name=".liangong_centrosul" />
+        <activity android:name=".liangong_noroeste" />
+        <activity android:name=".liangong_nordeste" />
+        <activity android:name=".liangong_barreiro" />
+        <activity android:name=".onde_liangon" />
+        <activity android:name=".liangong" />
+        <activity android:name=".praticas_integrativas" />
+        <activity android:name=".ambulatorios" />
+        <activity android:name=".hospitais" />
+        <activity android:name=".telainicial" />
+        <activity android:name=".centrosdesaude" />
+        <activity android:name=".servicos" />
+        <activity android:name=".sintomas" />
+        <activity android:name=".upas" />
+        <activity android:name=".pe" />
+        <activity android:name=".mapa" />
+    </application>
+
+</manifest>

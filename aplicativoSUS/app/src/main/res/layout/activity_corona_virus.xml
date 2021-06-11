@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:ignore="MissingConstraints">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Quais sintomas está sentindo?"
+                android:textColor="#3F51B5"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <CheckBox
+                android:id="@+id/cbx_cansaco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Cansaço"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView39"
+                tools:ignore="MissingConstraints" />
+
+            <CheckBox
+                android:id="@+id/cbx_febre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Febre"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toEndOf="@+id/cbx_cansaco"
+                app:layout_constraintTop_toBottomOf="@+id/textView39"
+                tools:ignore="MissingConstraints" />
+
+            <CheckBox
+                android:id="@+id/cbx_tosse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tosse"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_cansaco"
+                tools:ignore="MissingConstraints" />
+
+            <CheckBox
+                android:id="@+id/cbx_dif_respirar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:text="Dificuldade para respirar"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toEndOf="@+id/cbx_tosse"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_febre"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textViewdoencas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="É portador de alguma das doenças abaixo?"
+                android:textColor="#3F51B5"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_tosse"
+                tools:ignore="MissingConstraints" />
+
+            <RadioButton
+                android:id="@+id/rdSim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:selectAllOnFocus="false"
+                android:text="Sim"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:buttonTint="@color/colorPrimary"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewdoencas" />
+
+            <RadioButton
+                android:id="@+id/rdNao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:selectAllOnFocus="false"
+                android:text="Não"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:buttonTint="@color/colorPrimary"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toEndOf="@+id/rdSim"
+                app:layout_constraintTop_toBottomOf="@+id/textViewdoencas"
+                tools:ignore="MissingConstraints" />
+
+
+            <CheckBox
+                android:id="@+id/cbx_insuficiencia_cardiaca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Insuficiência cardíaca"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_imunodepressao"
+                tools:ignore="MissingConstraints" />
+
+            <CheckBox
+                android:id="@+id/cbx_cardiopatia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cardiopatia isquêmica"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_gestacao"
+                tools:ignore="MissingConstraints" />
+
+            <CheckBox
+                android:id="@+id/cbx_asma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asma moderada/grave"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_cardiopatia"
+                tools:ignore="MissingConstraints" />
+
+            <CheckBox
+                android:id="@+id/cbx_imunodepressao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Imunodepressão"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_diabetes"
+                tools:ignore="MissingConstraints" />
+
+            <CheckBox
+                android:id="@+id/cbx_doenca_renal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doenças renais, crônicas (graus 3, 4 e 5)"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_asma"
+                tools:ignore="MissingConstraints" />
+
+            <CheckBox
+                android:id="@+id/cbx_diabetes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diabetes"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rdSim"
+                tools:ignore="MissingConstraints" />
+
+            <CheckBox
+                android:id="@+id/cbx_doencas_cromossomicas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doenças cromossômicas com fragilidade imunológica"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_doenca_renal"
+                tools:ignore="MissingConstraints" />
+
+            <CheckBox
+                android:id="@+id/cbx_gestacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gestação de alto risco"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_insuficiencia_cardiaca"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textViewIdade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Qual sua idade"
+                android:textAlignment="center"
+                android:textColor="#3F51B5"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_doencas_cromossomicas"
+                tools:ignore="MissingConstraints" />
+
+            <RadioButton
+                android:id="@+id/rdMenorde18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:selectAllOnFocus="false"
+                android:text="Até 18 anos"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:buttonTint="@color/colorPrimary"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewIdade" />
+
+            <RadioButton
+                android:id="@+id/rdMaior18Menor40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:selectAllOnFocus="false"
+                android:text="19 a 39 anos"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:buttonTint="@color/colorPrimary"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toEndOf="@+id/rdMenorde18"
+                app:layout_constraintTop_toBottomOf="@+id/textViewIdade"
+                tools:ignore="MissingConstraints" />
+
+            <RadioButton
+                android:id="@+id/rdMaior39Menor59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:selectAllOnFocus="false"
+                android:text="40 a 59 anos"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:buttonTint="@color/colorPrimary"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rdMaior18Menor40"
+                tools:ignore="MissingConstraints" />
+
+            <RadioButton
+                android:id="@+id/rdMaior60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:selectAllOnFocus="false"
+                android:text="Mais de 60 anos"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:buttonTint="@color/colorPrimary"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toEndOf="@+id/rdMaior39Menor59"
+                app:layout_constraintTop_toBottomOf="@+id/rdMenorde18"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/btn_confirm"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/shape"
+                android:text="Confirmar"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rdMaior60" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <!--<Button-->
+    <!--android:id="@+id/btn_gerar_rota"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="128dp"-->
+    <!--android:background="@drawable/shape"-->
+    <!--android:text="Gerar rota"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+    <!--android:textColor="#FFFFFF"-->
+    <!--android:textStyle="bold"-->
+    <!--app:fontFamily="casual"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintHorizontal_bias="0.498"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/cbx_dif_respirar"-->
+    <!--tools:ignore="MissingConstraints" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="O que mais incomoda?"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textView45"
+        tools:ignore="MissingConstraints">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <CheckBox
+                android:id="@+id/cbx_traba_parto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Trabalho de parto"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_traba_parto"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:background="@drawable/shape"-->
+                <!--android:text="Trabalho de parto"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textStyle="bold"-->
+                <!--app:fontFamily="casual"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--tools:ignore="MissingConstraints" />-->
+
+            <CheckBox
+                android:id="@+id/cbx_cheiro_forte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Cheiro forte"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_traba_parto"
+                tools:ignore="MissingConstraints"/>
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_odor_forte"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginTop="12dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:background="@drawable/shape"-->
+                <!--android:text="Cheiro forte"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textStyle="bold"-->
+                <!--app:fontFamily="casual"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/btn_traba_parto"-->
+                <!--tools:ignore="MissingConstraints" />-->
+
+            <CheckBox
+                android:id="@+id/cbx_coceira"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Coceira"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_cheiro_forte"
+                tools:ignore="MissingConstraints"/>
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_coceira"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginTop="12dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:background="@drawable/shape"-->
+                <!--android:text="Coceira"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textStyle="bold"-->
+                <!--app:fontFamily="casual"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/btn_odor_forte"-->
+                <!--tools:ignore="MissingConstraints" />-->
+
+            <CheckBox
+                android:id="@+id/cbx_corri_vagina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Corrimento na vagina"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_coceira"
+                tools:ignore="MissingConstraints"/>
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_corrimento"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginTop="12dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:background="@drawable/shape"-->
+                <!--android:text="Corrimento na vagina"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textStyle="bold"-->
+                <!--app:fontFamily="casual"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/btn_coceira"-->
+                <!--tools:ignore="MissingConstraints" />-->
+
+            <CheckBox
+                android:id="@+id/cbx_feridas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Ferida"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_corri_vagina"
+                tools:ignore="MissingConstraints"/>
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_ferida"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginTop="12dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:background="@drawable/shape"-->
+                <!--android:text="Ferida"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textStyle="bold"-->
+                <!--app:fontFamily="casual"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/btn_corrimento"-->
+                <!--tools:ignore="MissingConstraints" />-->
+
+            <CheckBox
+                android:id="@+id/cbx_atraso_menst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Atraso da menstruação"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_feridas"
+                tools:ignore="MissingConstraints"/>
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_atraso_menst"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginTop="12dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:background="@drawable/shape"-->
+                <!--android:text="Atraso da menstruação"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textStyle="bold"-->
+                <!--app:fontFamily="casual"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/btn_ferida"-->
+                <!--tools:ignore="MissingConstraints" />-->
+
+            <CheckBox
+                android:id="@+id/cbx_dor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Dor"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_atraso_menst"
+                tools:ignore="MissingConstraints"/>
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_dor"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:background="@drawable/shape"-->
+                <!--android:text="Dor"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textStyle="bold"-->
+                <!--app:fontFamily="casual"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/btn_atraso_menst"-->
+                <!--tools:ignore="MissingConstraints" />-->
+
+            <Button
+                android:id="@+id/btn_gerar_rota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/shape"
+                android:text="Gerar rota"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_dor"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

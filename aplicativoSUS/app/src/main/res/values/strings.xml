@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Direciona SUS</string>
+    <string name="button">Button</string>
+    <string name="map_quest_api_key">4UuGOuv8VzeOcLiN4ie00lKn1bHKEerP</string>
+    <string name="costas_membros">
+        Costas e Membros
+    </string>
+    <string name="barriga">
+        Barriga
+    </string>
+    <string name="sobre">
+        <b><small>Princípios doutrinários do SUS</small></b>\n
+        <small>Referem-se aos <b>ideias</b> do Sistema Único de Saúde.</small>\n
+
+        \n<small><b>- Universalização:</b> o Estado deve garantir que <b>todos os cidadãos tenham acesso</b> aos serviços
+            de saúde oferecidos, independente de quaisquer características sociais ou pessoais - gênero, raça, profissão, entre outras.</small>\n
+
+        \n<small><b>- Equidade:</b> busca diminuir as desigualdades no atendimento e, ao contrário do que parece, significa o respeito às diferenças e às distintas necessidades dos pacientes.
+            Seria “tratar desigualmente os desiguais”, focando esforços especiais onde há maior carência</small>\n
+
+        \n<small><b>- Integralidade:</b> políticas públicas, tais como educação e preservação ambiental, para assegurar a garantia de qualidade de vida à população.</small>\n
+
+        \n<b><big>Princípios Organizativos</big></b>\n
+        <small>Os princípios organizativos são formas de <b>concretizar os ideias</b> do SUS na prática, por meio de:</small>\n
+
+        \n<small>Regionalização e Hierarquização: garante a <b>articulação</b> entre os serviços existentes
+        dentro dessa região de forma a cobrir os diferentes graus de necessidades da população.</small>\n
+
+        \n<small>Descentralização e Comando Único: descentralizar é redistribuir poder e responsabilidade entre os três níveis de governo.
+            Com relação à saúde, descentralização objetiva prestar serviços com maior qualidade e garantir o controle e a fiscalização por parte dos cidadãos.
+            No SUS, a responsabilidade pela saúde deve ser descentralizada até o município, ou seja, devem ser fornecidas ao município condições gerenciais, técnicas, administrativas e financeiras
+            para exercer esta função. Para que valha o princípio da descentralização, existe a concepção constitucional do mando único, onde cada esfera de governo é autônoma e soberana
+            nas suas decisões e atividades, respeitando os princípios gerais e a participação da sociedade.</small>\n
+
+        \n<small>Participação Popular: a sociedade deve participar no dia-a-dia do sistema.
+            Para isto, devem ser criados os Conselhos e as Conferências de Saúde, que visam formular estratégias, controlar e avaliar a execução da política de saúde.</small>
+
+        \n<small>Hierarquia da Saúde Pública no Brasil</small>\n
+        <small>Para garantir o melhor funcionamento dos serviços de saúde há uma hierarquização dos serviços do SUS.
+        Essa classificação é feita de acordo com a <b>complexidade</b> do caso a ser atendido e é dividida em quatro níveis:</small>\n
+        \n<small>- <b>Atenção Básica: </b>engloba os atendimentos e ações de promoção, prevenção e recuperação do estado da saúde,
+        contemplando consultas, vacinação e outras ações. Os atendimentos a famílias também se encaixam nessa sessão, como gestão materna,
+        saúde do idoso, da criança e do adolescente.</small>\n
+
+        \n<small><b>Atenção secundária: </b>estágio em que alguma doença já foi identificada e demanda
+        acompanhamento especializado de oftalmologistas e cardiologistas, por exemplo.</small>\n
+
+        \n<small><b>Atenção terciária: </b> para pacientes com um quadro mais grave, quer precisam ser internados para melhor acompanhamento
+        (por exemplo, nas Unidades de Tratamento Intensivo - UTI).</small>\n
+
+        \n<small><b>Reabilitação: </b>seria uma quarta fase para casos em que o paciente teve alta, mas ainda demanda
+            um acompanhamento posterior - como fisioterapia, por exemplo.</small>\n
+
+        \n<small>Com base nessa classificação, o SUS definiu as unidades de atendimento de saúde e quais casos cada uma delas pode e deve atender.
+            As principais opções são:</small>\n
+    \n<small><b>- Posto de Saúde:</b></small> presta <b>assistência à população de uma determinada área, com agendamentos de consultas ou não.
+            O atendimento é realizado por profissionais da saúde de nível médio (como enfermeiras e auxiliares) e pode, ou não, contar com a presença
+            de um médico</b>\n
+    \n<small><b>Unidade Básica de Saúde (UBS):</b> realiza atendimentos de <b>atenção básica e integral, </b>como curativos.
+            Os atendimentos englobam especialidades fundamentais, podendo também oferecer serviços odontológicos. A assistência deve ser permanente
+            e prestada por médico generalista ou especialistas nas áreas oferecidas, podendo variar de uma UBS para outra.</small>\n
+
+    \n<small><b>Unidade de Pronto-Atendimento (UPA): </b> consiste em unidades de <b>urgência e emergência</b> abertas 24 horas.
+            Por contar com mais recursos do que um posto de saúde, é capacitada a atender <b>serviços de média a alta complexidade</b>, como casos de pressão alta, infarto, fraturas ou derrame.
+            Na UPA, é o grau de emergência que define a ordem dos atendimentos.</small>\n
+
+    \n<small><b>Hospital (incluindo o hospital universitário): </b>destinada ao atendimento dos casos de <b>atenção terciária</b>.
+            Geralmente os pacientes são encaminhados ao hospital pelos níveis anteriores, ou ainda em ambulância.
+            Por contar com maior quantidade de recursos tecnológicos, também são responsáveis por atendimento clínico geral em diversas especialidades.
+            Os hospitais atendem casos de enfermidades que ameacem a vida dos pacientes – como câncer – e realizam cirurgias, entre várias outras funções.</small>
+
+    </string>
+</resources>

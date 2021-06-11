@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="O que mais te incomoda?"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView43"
+        tools:ignore="MissingConstraints">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/cbx_dor_rim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Dor no rim"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_dor_rim"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:background="@drawable/shape"-->
+                <!--android:text="Dor no Rim"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textStyle="bold"-->
+                <!--app:fontFamily="casual"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toTopOf="parent"-->
+                <!--tools:ignore="MissingConstraints" />-->
+
+            <CheckBox
+                android:id="@+id/cbx_freq_urinar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Dor, Urgência, Maior frequência para urinar"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_dor_rim"
+                tools:ignore="MissingConstraints" />
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_freq_urinar"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginTop="12dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:background="@drawable/shape"-->
+                <!--android:text="Dor, Urgência, Maior Frequência para Urinar"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textStyle="bold"-->
+                <!--app:fontFamily="casual"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintHorizontal_bias="1.0"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/btn_dor_rim"-->
+                <!--tools:ignore="MissingConstraints" />-->
+
+            <CheckBox
+                android:id="@+id/cbx_jato_diminuido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Jato diminuído em homens"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_freq_urinar"
+                tools:ignore="MissingConstraints" />
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_jato_diminuido"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginTop="12dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:background="@drawable/shape"-->
+                <!--android:text="Jato Diminuído em Homens"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textStyle="bold"-->
+                <!--app:fontFamily="casual"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintHorizontal_bias="0.0"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/btn_freq_urinar"-->
+                <!--tools:ignore="MissingConstraints" />-->
+
+            <CheckBox
+                android:id="@+id/cbx_aum_vol_urina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Aumento do volume de urina"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_jato_diminuido"
+                tools:ignore="MissingConstraints" />
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_aum_vol_urina"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginTop="12dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:background="@drawable/shape"-->
+                <!--android:text="Aumento do Volume de Urina"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textStyle="bold"-->
+                <!--app:fontFamily="casual"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintHorizontal_bias="1.0"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/btn_jato_diminuido"-->
+                <!--tools:ignore="MissingConstraints" />-->
+
+            <CheckBox
+                android:id="@+id/cbx_incont_urinaria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Incontinência urinaria"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_aum_vol_urina"
+                tools:ignore="MissingConstraints" />
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_incont_urinaria"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginTop="12dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:background="@drawable/shape"-->
+                <!--android:text="Incontinência Urinária"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textStyle="bold"-->
+                <!--app:fontFamily="casual"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintHorizontal_bias="0.0"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/btn_aum_vol_urina"-->
+                <!--tools:ignore="MissingConstraints" />-->
+
+            <CheckBox
+                android:id="@+id/cbx_sangue_urina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Sangue na urina"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_incont_urinaria"
+                tools:ignore="MissingConstraints" />
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_sangue_urina"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginTop="12dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:background="@drawable/shape"-->
+                <!--android:text="Sangue na Urina"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textStyle="bold"-->
+                <!--app:fontFamily="casual"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/btn_incont_urinaria"-->
+                <!--tools:ignore="MissingConstraints" />-->
+
+            <CheckBox
+                android:id="@+id/cbx_urina_odor_forte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Urina com odor forte"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_sangue_urina"
+                tools:ignore="MissingConstraints" />
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_urina_odor_forte"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginTop="12dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:background="@drawable/shape"-->
+                <!--android:text="Urina com odor forte"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textStyle="bold"-->
+                <!--app:fontFamily="casual"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/btn_sangue_urina"-->
+                <!--tools:ignore="MissingConstraints" />-->
+
+            <CheckBox
+                android:id="@+id/cbx_urina_com_espuma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:shadowColor="#3F51B5"
+                android:text="Urina com espuma"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_urina_odor_forte"
+                tools:ignore="MissingConstraints" />
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_urina_com_espuma"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginTop="12dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:background="@drawable/shape"-->
+                <!--android:text="Urina com espuma"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textStyle="bold"-->
+                <!--app:fontFamily="casual"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintHorizontal_bias="0.0"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/btn_urina_odor_forte"-->
+                <!--tools:ignore="MissingConstraints" />-->
+
+            <Button
+                android:id="@+id/btn_gerar_rota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/shape"
+                android:text="Gerar rota"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbx_urina_com_espuma"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
